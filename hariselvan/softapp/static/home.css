@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-cont {
+    background-image: url("https://img.freepik.com/free-photo/slice-carrots-row-orange-background_23-2147927314.jpg?t=st=1745128315~exp=1745131915~hmac=81d063ff777a310327112cfd1c28afcbf203f13c6d0f2dfbbb9b4f1effd20c5f&w=740");
+    background-size: cover;
+}
+
+.mh {
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.image {
+    height: 20%;
+    width: 20%;
+}
+
+.cont1 {
+    padding: 10px;
+}
+
+.cont2 {
+    background-color: #00000080;
+}
+
+.mh2 {
+    color: white;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.cont3 {
+    background-image: url("https://img.freepik.com/free-photo/view-ready-eat-delicious-meal-go_23-2151431768.jpg?t=st=1745129261~exp=1745132861~hmac=40a5aa3cae67e1c09802f26acbca3be06d943d4a6ddefaedde9f67051dfbba9d&w=1380");
+    background-size: cover;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 8px;
+}
+
+.mh3 {
+    color: white;
+}
+
+.para1 {
+    color: white;
+}
+
+.image2 {
+    height: 50%;
+    width: 100%;
+}
+
+.cont4 {
+    background-color: #fdedec;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cont5 {
+    background-color: #fdedec;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cont6 {
+    background-color: #fdedec;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hari {
+    font-size: 20px;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
