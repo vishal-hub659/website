@@ -1,5 +1,5 @@
 # Ex.07 Restaurant Website
-# Date: 20-04-2025
+# Date:07/05/25
 # AIM:
 To develop a static Restaurant website to display the food items and services provided by them.
 
@@ -27,148 +27,335 @@ Publish the website in the given URL.
 
 # PROGRAM:
 ```
-home.html
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEON RESTARUANT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="bg-cont">
-        <div class="cont1 d-flex flex-row justify-content-center">
-            <img src="https://img.freepik.com/free-photo/top-view-delicious-eggplant-rolls-with-potatoes-fresh-vegetables-dark-background-dish-dinner-ripe-meal-food_140725-116130.jpg?t=st=1745128513~exp=1745132113~hmac=866693b2f7d4f4d2ff0089b2d1c1946b65f491bbd95cd5fd6df8b4cb93023ae7&w=1380" class="image">
-            <h1 class="mh">FOODIE</h1>
-        </div>
-        <div class="cont2 d-flex flex-row justify-content-between">
-            <h2 class="mh2">Home</h2>
-            <h2 class="mh2">menu</h2>
-            <h2 class="mh2">Administration</h2>
-            <h2 class="mh2">Contact us</h2>
-        </div>
-        <div class="cont3">
-            <h1 class="mh3">30% off This weekend</h1>
-            <p class="para1">Todays offers are more,and exiting free foods and 30% discount offer available in this week,location:vellore,vaduganthangal,e.b.colony,tamlinadu.all are come and enjoy to taste the delicious foods</p>
-        </div>
-        <div class="overall-cont456 d-flex flex-row">
-            <div class="cont4 d-flex flex-column">
-                <h2>Our New menu</h2>
-                <img src="https://img.freepik.com/free-photo/view-delicious-dish-food_23-2150777655.jpg?t=st=1745130040~exp=1745133640~hmac=3d6cb96fa4c27e062ea140328f5193b07a5fd1cadf998db2ac330d0137ed0917&w=1380" class="image2">
-                <p>Indulge in the rich aroma and irresistible flavors of our signature Biryani a timeless dish crafted with fragrant basmati rice, slow-cooked marinated meat or veggies, and a blend of authentic spices. Each spoonful is a celebration of tradition, taste, and love.</p>
-            </div>
-            <div class="cont5 d-flex flex-column">
-                <h2>OFFER</h2>
-                <img src="https://img.freepik.com/free-photo/delicious-food-table_23-2150857814.jpg?t=st=1745130354~exp=1745133954~hmac=93db52a7e13bf2fed21200de838638ed48a674f47cdf849dcd4f18817bdb83f6&w=1380" class="image2">
-                <p>Ah, you want content for a meal combo or full meal plate that includes all meals at one fixed rate perfect for a set menu or thali concept. Here's some catchy and appetizing content for that:</p>
-            </div>
-            <div class="cont6 d-flex flex-column">
-                <h2>Food Timing</h2>
-                <img src="https://img.freepik.com/free-photo/hands-holding-knife-fork-alarm-clock-plate-blue-background_169016-21525.jpg?t=st=1745130548~exp=1745134148~hmac=e406e15a2b7d7cf38c560433b8d2a6504838e4ae3e07217956d5f0d0c386d424&w=1380" class="image2">
-                <p>We serve delicious, freshly prepared meals every day from 10:00 AM to 4:00 PM, making it the perfect time for a hearty brunch, a fulfilling lunch, or a mid-day treat. During these hours, you can enjoy a variety of options including our popular All-in-One Meals, Biryani Specials, Roti & Curry Combos, and more</p>
-            </div>
-        </div>
-        <h1 class="hari">Design and Developed by <span>Hariselvan S</span></h1>
-    </div>
-</body>
+    <header>
+        <h1>WELCOME TO NEON RESTAURANT</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
 
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Neon Restaurant, where we serve the finest dishes made from the freshest ingredients. Our chefs are dedicated to providing you with an unforgettable dining experience.</p>
+    </section>
+    <div class="image-row">
+        <img src="pic1.png" alt="Image 1" width="420" height="250">
+        <img src="pic 3.png" alt="Image 2" width="420" height="250">
+        <img src="pic2.png" alt="Image 3" width="420" height="250">
+    </div>
+    
+
+</body>
 </html>
 
+menu.html
 
-home.css
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="sandwich.png" alt="Chicken Sandwich" width="150">
+                <p>Chicken Sandwich - 149 Rs</p>
+            </div>
+            <div class="menu-item">
+                <img src="soup.png" alt="Tomato Soup" width="150">
+                <p>Tomato Soup - 99 Rs</p>
+            </div>
+            <div class="menu-item">
+                <img src="sushi.png" alt="Sushi" width="150">
+                <p>Sushi - 399 Rs</p>
+            </div>
+            <div class="menu-item">
+                <img src="burger.png" alt="Cheese Burger" width="150">
+                <p>Cheese Burger - 299 Rs</p>
+            </div>
+            <div class="menu-item">
+                <img src="pizza.png" alt="Pizza" width="150">
+                <p>Pizza - 499 Rs</p>
+            </div>
+            <div class="menu-item">
+                <img src="fries.png" alt="French Fries" width="150">
+                <p>French Fries - 199 Rs</p>
+            </div>
+            <div class="menu-item">
+                <img src="salad.png" alt="Salad" width="150">
+                <p>Fresh Salad - 129 Rs</p>
+            </div>
+            <div class="menu-item">
+                <img src="steak.png" alt="Steak" width="150">
+                <p>Grilled Steak - 599 Rs</p>
+            </div>
+            <div class="menu-item">
+                <img src="pasta.png" alt="Pasta" width="150">
+                <p>Italian Pasta - 299 Rs</p>
+            </div>
+            <div class="menu-item">
+                <img src="desert.png" alt="Dessert" width="150">
+                <p>Chocolate Dessert - 199 Rs</p>
+            </div>
+            <div class="menu-item">
+                <img src="icecream.png" alt="Ice Cream" width="150">
+                <p>Ice Cream - 99 Rs</p>
+            </div>
+            <div class="menu-item">
+                <img src="coffee.png" alt="Coffee" width="150">
+                <p>Hot Coffee - 49 Rs</p>
+            </div>
+        </div>        
+    </section>
+</body>
+</html>
 
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+team.html
 
-.bg-cont {
-    background-image: url("https://img.freepik.com/free-photo/slice-carrots-row-orange-background_23-2147927314.jpg?t=st=1745128315~exp=1745131915~hmac=81d063ff777a310327112cfd1c28afcbf203f13c6d0f2dfbbb9b4f1effd20c5f&w=740");
-    background-size: cover;
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Meet Our Team</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="team">
+            <div class="team-member">
+                <img src="myphoto.jpeg" alt="Owner" class="team-img">
+                <p><b>V Rishon Anand</b></p>
+                <p>1 Year of Experience</p>
+            </div>
+            <div class="team-member">
+                <img src="arnold.png" alt="Chef Arnold" class="team-img">
+                <p><b>Arnold</b></p>
+                <p>Head Chef - Expert in Italian Cuisine</p>
+            </div>
+            <div class="team-member">
+                <img src="chef.png" alt="Chef Johnson" class="team-img">
+                <p><b>Dwayne Johnson</b></p>
+                <p>Pastry Chef - Creating Delicious Desserts</p>
+            </div>
+            <div class="team-member">
+                <img src="vad.png" alt="Waiter Vadivelu" class="team-img">
+                <p><b>Vadivelu</b></p>
+                <p>Friendly Waiter - Ensuring the Best Service</p>
+            </div>
+            <div class="team-member">
+                <img src="robert.png" alt="Waiter Vadivelu" class="team-img">
+                <p><b>Tony Stark</b></p>
+                <p>Waiter - Dedicated to Customer Satisfaction</p>
+            </div>
+            <div class="team-member">
+                <img src="hitler.png" alt="Waiter Vadivelu" class="team-img">
+                <p><b>Adolf Hitler</b></p>
+                <p>Grill Chef - Master of Barbecue</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+contact.html
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <p>Email: neonrestaurant@gmail.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 12345, Saveetha Engineering College, Chennai</p>
+    </section>
+    
+</body>
+</html>
+
+styles.css
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.9;
+    font-size: large;
+    background-image: url('purple.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 100vh;
+    color: rgb(248, 246, 246);
 }
 
-.mh {
-    color: white;
+
+header {
+    background: #ff6347; 
+    color: rgb(246, 240, 245);
+    padding: 10px 0;
+    text-align: center;
+    font-style: oblique;
+    border-radius: 20px;
+}
+
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(15, 14, 14);
+    text-decoration: none;
     font-weight: bold;
-    font-size: 100px;
+    font-size: larger;
 }
 
-.image {
-    height: 20%;
-    width: 20%;
+section {
+    padding: 20px;
+    margin: 30px;
 }
 
-.cont1 {
-    padding: 10px;
-}
 
-.cont2 {
-    background-color: #00000080;
-}
 
-.mh2 {
-    color: white;
-    font-size: 20px;
-    margin: 5px;
-}
-
-.cont3 {
-    background-image: url("https://img.freepik.com/free-photo/view-ready-eat-delicious-meal-go_23-2151431768.jpg?t=st=1745129261~exp=1745132861~hmac=40a5aa3cae67e1c09802f26acbca3be06d943d4a6ddefaedde9f67051dfbba9d&w=1380");
-    background-size: cover;
-    padding: 10px;
-    border-radius: 25px;
-    margin: 8px;
-}
-
-.mh3 {
-    color: white;
-}
-
-.para1 {
-    color: white;
-}
-
-.image2 {
-    height: 50%;
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #88bc19;
+    color: rgb(240, 240, 230);
+    position: fixed;
+    bottom: 0;
     width: 100%;
+    
+
+    
 }
 
-.cont4 {
-    background-color: #fdedec;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.cont5 {
-    background-color: #fdedec;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.cont6 {
-    background-color: #fdedec;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px;
-}
-
-.hari {
-    font-size: 20px;
-    color: white;
-    padding: 50px;
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    gap: 20px;
+    margin: 20px auto;
     text-align: center;
 }
 
-span {
-    color: red;
+.menu-item img {
+    width: 150px;
+    height: 150px; 
+    object-fit: cover; 
+    border: 2px solid #fff; 
+    border-radius: 5px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.menu-item p {
+    margin-top: 10px; 
+    font-size: 17px; 
+    color: #c7ecde; 
+    font-weight: 800;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 75x; 
+    margin: 10px auto;
+    max-width: 1200px; 
+}
+
+.team-member {
+    text-align:center;
+    width: 200px; 
+}
+
+.team-img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    margin: 5px 0;
+    font-size: 24px;
+    color: #fcf3f3;
+}
+.image-row {
+    display: flex; 
+    justify-content: center; 
+    gap: 25px;
+    margin: 20px 0; 
+}
+
+.image-row img {
+    border: 6px solid #0a0a0a; 
+    border-radius: 20px; 
 }
 ```
 # OUTPUT:
-![alt text](<Screenshot 2025-04-20 121551.png>)
+![image](https://github.com/user-attachments/assets/59194c42-5e3e-42e3-a2f7-f79d7aacebbd)
+![image](https://github.com/user-attachments/assets/18eab89b-a7fe-4737-93ef-4ce53b4e2e25)
+![image](https://github.com/user-attachments/assets/2d206896-174a-4b31-b6bd-c82a4b7ebfea)
 
-![alt text](<Screenshot 2025-04-20 121608.png>)
 # RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
